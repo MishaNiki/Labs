@@ -125,7 +125,7 @@ func checkSpam(msg string, stor *storage.Storage) (bool, error) {
 
 	fmt.Println("z = ", z)
 
-	if z > 0.5 {
+	if z > 0.6 {
 		return true, nil
 	} else {
 		return false, nil
